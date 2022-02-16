@@ -5,7 +5,9 @@
     margin: 0px;
     padding: 0px;
 }
-
+.wrap_original {
+    overflow: hidden;
+}
 header {
     background-color: black;
 
@@ -13,9 +15,7 @@ header {
         text-align: center;
         padding: 10px;
         color: rgb(236, 236, 245);
-
     }
-
 }
 
 .container-fluid {
@@ -33,7 +33,6 @@ header {
         margin-top: 100px;
 
         .contents {
-
             background-color: beige;
 
             p.subject {
@@ -139,6 +138,280 @@ footer {
         text-align: center;
         padding: 10px;
         color: rgb(236, 236, 245);
+    }
+}
+@media (max-width: 992px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrap_original {
+        overflow: hidden;
+    }
+    header {
+        background-color: black;
 
+        .header_title {
+            text-align: center;
+            padding: 10px;
+            color: rgb(236, 236, 245);
+        }
+    }
+
+    .container-fluid {
+        margin-top: 20px;
+    }
+
+    .col-6 {
+        text-align: center;
+
+        .container-fluid.light_produce {
+            margin-top: 100px;
+        }
+
+        .container-fluid.contents {
+            margin-top: 100px;
+
+            .contents {
+                background-color: beige;
+
+                p.subject {
+                    text-align: center;
+                }
+
+                li {
+                    text-align: left;
+                    margin-left: 70px;
+                }
+            }
+        }
+
+        .container-fluid.beginner_masterduel {
+            #i1 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+
+        .container-fluid.beginner_recommendation {
+            #i2 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p.feature {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+
+        .container-fluid.my_deck {
+            #i3 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p.deck_description {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+        .container-fluid.sammary {
+            #i4 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p.sammary {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+    }
+
+
+    footer {
+        margin-top: 20px;
+        background-color: black;
+
+        .footer_title {
+            text-align: center;
+            padding: 10px;
+            color: rgb(236, 236, 245);
+        }
+    }
+}
+@media (max-width: 544px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .wrap_original {
+        overflow: hidden;
+    }
+    header {
+        background-color: black;
+
+        .header_title {
+            text-align: center;
+            padding: 10px;
+            color: rgb(236, 236, 245);
+        }
+    }
+
+    .container-fluid {
+        margin-top: 20px;
+    }
+
+    .col-6 {
+        text-align: center;
+
+        .container-fluid.light_produce {
+            margin-top: 100px;
+        }
+
+        .container-fluid.contents {
+            margin-top: 100px;
+
+            .contents {
+                background-color: beige;
+
+                p.subject {
+                    text-align: center;
+                }
+
+                li {
+                    text-align: left;
+                    margin-left: 70px;
+                }
+            }
+        }
+
+        .container-fluid.beginner_masterduel {
+            #i1 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+
+        .container-fluid.beginner_recommendation {
+            #i2 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p.feature {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+
+        .container-fluid.my_deck {
+            #i3 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p.deck_description {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+        .container-fluid.sammary {
+            #i4 {
+                margin-top: 100px;
+                border-top: double thick rgb(5, 1, 12);
+                border-bottom: double thick rgb(5, 1, 12);
+            }
+
+            p.initial {
+                margin-top: 20px;
+            }
+
+            p.sammary {
+                margin-top: 20px;
+            }
+
+            p {
+                text-align: left;
+                margin-bottom: 60px;
+            }
+        }
+    }
+
+    footer {
+        margin-top: 20px;
+        background-color: black;
+
+        .footer_title {
+            text-align: center;
+            padding: 10px;
+            color: rgb(236, 236, 245);
+        }
     }
 }
