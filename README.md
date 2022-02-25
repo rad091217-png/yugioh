@@ -1,24 +1,12 @@
-# README
+1月19日にリリースされ2月7日時点で1000万ダウンロード
+された遊戯王マスターデュエルについて紹介したものです。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+作成した期間として6時間程でほぼ完成させその後は
+ちょっとした修正を繰り返しました。
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+使用した技術 
+HTML
+CSS 
+bootstrap 
+Ruby 2.7.2 
+Ruby On Rails 6.0.3.7
